@@ -1,0 +1,56 @@
+#navbar{ 
+  position:fixed;
+  display:flex;
+  width:100%;
+  align-content:center;
+}
+#navbar a{
+  text-decoration:none;
+  flex-grow:1;
+
+  text-align:center;
+  
+  font-size: 1.5em;
+  font-weight:400;
+  color:#fff;
+  background-color: #000;
+  padding-top:0.5em;
+  padding-bottom:0.5em;
+  
+}
+#rezepte:hover{
+	  background-color:#cdf;
+	  color:#000;
+}
+#vegan:hover{
+	  background-color:#cfc;
+	  color:#000;
+}
+#low-carb:hover{
+	  background-color:#fce;
+	  color:#000;
+}
+#navbar a:hover{
+  
+}
+
+body{
+	background-color:#3e4242;
+	margin-left:0;
+	margin-right:0;
+	display:flex;
+	flex-direction:column;
+	font-family:Arial;
+	
+}
+.page{
+	margin-top:4em;
+}
+#footer{
+	background-color:#000;
+	color:#bbb;
+	text-align:center;
+	position: absolute;
+	bottom:0;
+	width:100%;
+}
