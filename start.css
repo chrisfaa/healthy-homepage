@@ -74,22 +74,45 @@ a{
 	color: #fff;
 }
 .eintrag{
-	width:32%;
+	width:30%;
+	min-width:20em;
+	flex-grow:1;
 	height:auto;
-	padding-bottom:1em;
+	padding-bottom:2%;
+	padding-left:1%;
+	padding-right:1%;
 	//background-color:#f00
 }
 .rezept-bild{
 	width:100%;
 	height:auto;
+
+}
+.eintrag:hover{
+	padding-bottom:0%;
+	min-width:20em;
+	width:32%;
+	height:auto;
+}
+
+.eintrag:hover .rezept-titel{
+	font-size:2.13em;
+	height:3.4em;
+	line-height:1.6em;
 }
 .rezept-titel{
-	margin-top:0.5em;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:wrap;
+
 	font-weight:700;
+	font-size: 2em;
+	height: 3.2em;
+	line-height:1.5em;
 }
 #rezept-name{
 	color: #fff;
-	font-size:3em;
+	font-size:4em;
 	text-align:center;
 }
 html{
