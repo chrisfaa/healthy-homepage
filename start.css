@@ -8,7 +8,7 @@
   flex-grow:1;
   text-align:center;
   
-  font-size: 1.5em;
+  font-size: 2.2em;
   font-weight:400;
   color:#fff;
   background-color: #000;
@@ -89,16 +89,18 @@ a{
 
 }
 .eintrag:hover{
+	padding-left:0%;
+	padding-right:0%;
 	padding-bottom:0%;
-	min-width:20em;
+	min-width:21.333333em;
 	width:32%;
 	height:auto;
 }
 
 .eintrag:hover .rezept-titel{
-	font-size:2.13em;
-	height:3.4em;
-	line-height:1.6em;
+	//font-size:2.13em;
+	//height:3.4em;
+	//line-height:1.6em;
 }
 .rezept-titel{
 	text-overflow:ellipsis;
@@ -110,11 +112,7 @@ a{
 	height: 3.2em;
 	line-height:1.5em;
 }
-#rezept-name{
-	color: #fff;
-	font-size:4em;
-	text-align:center;
-}
+
 html{
 	background-color:#3e4242;
 	display:flex;
@@ -127,7 +125,7 @@ body{
 	margin-right:0;
 }
 .page{
-	margin-top:4em;
+	margin-top:6em;
 	width:80%;
 	margin-left:10%;
 }
@@ -140,4 +138,37 @@ body{
 	padding-top:1em;
 	padding-bottom:1em;
 	margin-left:10%;
+}
+
+@media only screen and (max-width: 950px) {
+  .page{
+  width:100%;
+  margin-left:0%
+  }
+  
+  #navbar{
+  width:100%;
+  margin-left:0%
+  }
+  .rezept-titel{
+	
+	font-size: 1.8em;
+	height: 2.88em;
+	line-height:1.35em;
+}
+}
+
+@media only screen and (max-width: 695px) {
+  .eintrag{
+	padding-bottom:1.333333;
+	padding-left:0.666666em;
+	padding-right:0.666666em;
+	//background-color:#f00
+}
+
+.eintrag:hover{
+	padding-left:0%;
+	padding-right:0%;
+	padding-bottom:0%;
+}
 }

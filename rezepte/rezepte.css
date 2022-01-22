@@ -1,0 +1,84 @@
+.page{
+text-align:center;
+font-size:1.5em;
+}
+#rezept-name{
+	color: #fff;
+	font-size:4em;
+}
+
+#bild-main{
+	width :100%;
+	height:auto;
+	
+}
+#zubereitung{
+	width:70%;
+	background-color:#222;
+	color:#ddd;
+	text-align:left;
+	padding-left:2.5em;
+	padding-right:2.5em;
+}
+#zutaten{
+	width:30%;
+	background-color:#f7f4cd;
+	padding-top: 1em;
+	padding-right:2.5em;
+	padding-left:2.5em;
+}
+
+#zutaten li{
+	text-align:left;
+}
+#overview{
+	display:flex;
+	//flex-wrap:wrap;
+	
+	//justify-content:center;	
+}
+#table{
+	background-color:#efe;
+	padding-top: 1em;
+	padding-left:2.5em;
+	padding-right:2.5em;
+	
+}
+.gramm{
+	padding-left:1.5em;
+}
+#naehrwerte{
+	align-content:top;
+}
+h4{
+	font-size:1.6em;
+	text-align:center;
+	padding-top:0;
+	margin-top:0;
+	margin-bottom:0;
+}
+h3{
+	font-size:2em;
+	text-align:center;
+	//margin-bottom:0;
+}
+#zutaten h3{
+	margin-bottom:0;
+	margin-top:0;
+}
+#zutaten p{
+	//margin-bottom:0;
+	margin-top:0;
+}
+table th{
+	font-size:2em;
+}
+table td{
+	font-size:1.5em;
+}
+p{
+	line-height:1.8em;
+}
+.tipp{
+	color:#fcf;
+}
